@@ -10,3 +10,4 @@ Added this line locally:qc:::::
 # Third new line for working - commit diff
 # Fourth new line for staging - commit dif
 # Fifth new line for another example
+# 6th line for another example of diff
