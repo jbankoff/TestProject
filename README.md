@@ -1,5 +1,6 @@
 
-#new commit 
+#new commit
+
 
 # TestProject
 TestProject
@@ -15,3 +16,4 @@ Added this line locally:qc:::::
 # 6th line for another example of diff
 # 7th line for local vs remote diff
 # 8th line
+# For no fast forward merge
