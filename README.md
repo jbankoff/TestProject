@@ -7,3 +7,6 @@ Added this line locally:qc:::::
 # SSH communication based on password
 # New line for diffence first change
 # Second new line for difference second change
+# Third new line for working - commit diff
+# Fourth new line for staging - commit dif
+# Fifth new line for another example
