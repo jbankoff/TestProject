@@ -1,0 +1,6 @@
+{
+	"name": "JaysintegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
