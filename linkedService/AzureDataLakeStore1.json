@@ -1,0 +1,14 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://jaysfirstdatalakestorage.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "a94e9058-2317-4e4a-a245-2cfae633a4cb",
+			"subscriptionId": "abc5aec5-e3de-482f-bbcd-fdf6f8d44c83",
+			"resourceGroupName": "DataResources"
+		}
+	}
+}
