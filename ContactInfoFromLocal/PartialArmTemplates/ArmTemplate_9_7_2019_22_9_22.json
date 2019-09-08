@@ -1,0 +1,32 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory Name",
+			"defaultValue": "ContactInfoFromLocal"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStore1')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureDataLakeStore",
+				"typeProperties": {
+					"dataLakeStoreUri": "https://jaysfirstdatalakestorage.azuredatalakestore.net/webhdfs/v1",
+					"tenant": "a94e9058-2317-4e4a-a245-2cfae633a4cb",
+					"subscriptionId": "abc5aec5-e3de-482f-bbcd-fdf6f8d44c83",
+					"resourceGroupName": "DataResources"
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}
